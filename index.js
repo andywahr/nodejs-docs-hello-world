@@ -1,6 +1,6 @@
 var http = require('http');
 const appInsights = require("applicationinsights");
-appInsights.setup(process.env['AppInsightsKey']);
+appInsights.setup(process.env['APPINSIGHTS_INSTRUMENTATIONKEY']);
 appInsights.start();
 
 var server = http.createServer(function(request, response) {
