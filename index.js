@@ -7,7 +7,7 @@ var server = http.createServer(function(request, response) {
     console.log("Request Made");
     //appInsights.defaultClient.trackNodeHttpRequest({request: request, response: response});
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World!");
+    response.end("Hello World! PLease Work");
 
 });
 
